@@ -87,7 +87,7 @@ $(".reservations").on("submit", function(e){
       var template = Handlebars.compile(source);
       var reservationtListElement = template(context);
       reservations.push(reservationtListElement)
-      $('tr').html(reservations)
+      $('tbody').html(reservations)
     };
     //  /Refresh
     //$('#reservation-template').empty()
@@ -102,7 +102,12 @@ $(".reservations").on("submit", function(e){
 
   getReservations();
 
+$("#contactus").hide();
 
+$("#dropdownButton").on("click", function(){
+    $("#contact").slideToggle("slow");
+    $("#contactus").slideToggle("slow");
+  })
 
 
 
