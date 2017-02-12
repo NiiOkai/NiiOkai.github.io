@@ -1,0 +1,95 @@
+body {
+	font-family: "Helvetica-Neue", arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #808080;
+	} 
+
+.restaurant-pic {
+	height: 50vh;
+	background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');
+	background-size: cover;
+	background-position: 0 40%;
+	width: 700px;
+	border:1px solid white;
+	
+}
+
+.restaurant-info {
+	height: 50vh;
+}
+
+.reservation {
+	height: 25vh;
+	width: 700px;
+
+
+}
+
+/* add a deli pattern background*/
+.reservation-form-container {
+	position: relative;
+	height: 100%;
+	background: url('http://ih1.redbubble.net/image.80745362.8983/flat,800x800,075,t.u4.jpg');
+	background-size: cover;
+	background-position: 0 40%;
+	width: 700px;
+	left: 0px;
+	border:1px solid white;
+	border-radius: 5%;
+}
+
+.reservation-form {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.restaurant-locator {
+	height: 40vh;
+	width: 700px;
+	background-position: 0 40%;
+	background-color: grey;
+    border: 1px solid white;
+    outline-color: red;
+    left: 0px;
+}
+
+table{
+	width: 1000px;
+    background-color: #808080;
+    left: 0px;
+}
+
+h1{
+	font-size: 18px;
+	margin: 15px 0 0 0;
+	text-align: center;
+}
+
+h2{
+	font-size: 12px;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+h3{
+	font-size: 18px;
+	margin: 15px 0 0 0;
+	text-align: center;
+	color: white;
+}
+
+#hours{
+	
+	width: 200px;
+	position: absolute;
+	color: grey;
+	background-color: #282828;
+	border: 2px solid white;
+    border-radius: 5px;
+    height: 210px;
+    
+    margin-left: left;
+    margin-top: bottom;
+
+}
