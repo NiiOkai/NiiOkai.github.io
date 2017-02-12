@@ -102,12 +102,21 @@ $(".reservations").on("submit", function(e){
 
   getReservations();
 
+//this hides the box on page load
 $("#contactus").hide();
 
+//this toggles the hide and show actions
 $("#dropdownButton").on("click", function(){
     $("#contact").slideToggle("slow");
     $("#contactus").slideToggle("slow");
   })
+
+//$(".restaurant-locator").hide();
+
+$("#map").on("click", function(){
+  $(".restaurant-locator").show();
+})
+
 
 
 

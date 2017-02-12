@@ -94,7 +94,7 @@ h5{
 #hours{
 	top: 70px;
 	width: 200px;
-	position: absolute;
+	position: fixed;
 	color: grey;
 	background-color: #282828;
 	border: 2px solid white;
@@ -104,14 +104,14 @@ h5{
 
 }
 #dropdownButton{
-	position: absolute;
+	position: fixed;
 	top: 70px;
 	left: 930px;
 }
 #contactus{
 	top: 95px;
 	width: 200px;
-	position: absolute;
+	position: fixed;
 	color: grey;
 	background-color: #282828;
 	border: 2px solid white;
