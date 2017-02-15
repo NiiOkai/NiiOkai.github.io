@@ -127,7 +127,7 @@ $("#map").on("click", function(){
 
 
   function initMap() {
-    var center = {lat: 40.8054491, lng: -73.9654415};
+    var center = {lat: 33.7490, lng: -84.3880};
     
     var styles = [
       {hue: '#00ffe6' },
@@ -139,15 +139,15 @@ $("#map").on("click", function(){
       center: center,
       zoom: 10,
       styles: styles,
-      scrollwheel: false,
-      navigationControl: false,
+      scrollwheel: true,
+      navigationControl: true,
       mapTypeControl: false,
       scaleControl: false,
       draggable: true,
     });
 
     var marker = new google.maps.Marker({
-    position: {lat: 40.8054491, lng: -73.9654415},
+    position: {lat: 33.7490, lng: -84.3880},
     map: map,
     title: 'Monks Café'
     });
