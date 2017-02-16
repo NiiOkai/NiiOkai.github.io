@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #808080;
-	background-image: url(NiiOkai.github.io/images/food5.jpg);
+	background-image: url(../images/food.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -84,9 +84,9 @@ body {
 	background-color: grey;
     border: 1px solid #00ff00;
     outline-color: red;
-    left: 260px;
+    left: 290px;
     position: absolute;
-    top: 380px;
+    top: 416px;
 }
 
 .reservation-button{
@@ -106,9 +106,10 @@ body {
     }
 
 table{
-	width: 10px;
+    
+	width: 5px;
     background-color: #808080;
-    left: 500px;
+    left: 590px;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
     top: 50px;
@@ -121,14 +122,15 @@ table{
     th{
     	height: 2px;
     	width: 3px;
-    
+
+       
 
     }
 
     td{
     	height: 2px;
     	font-size: 10px;
-    	width: 20px;
+    	width: 5px;
     }
 
 
@@ -160,7 +162,7 @@ h4{
 	text-align: center;
 	color: white;
 	position: absolute;
-	left: 1000px;
+	
 }
 h5{
 	color: #00ff00;
@@ -172,6 +174,13 @@ h6{
 	margin: 0 0 0 0;
 	color: red;
 	font-size: 15px;
+}
+.locateUsPos{
+	position: absolute;
+	top: 380px;
+	left: 460px;
+	font-size: 18px;
+	color: white;
 }
 
 
