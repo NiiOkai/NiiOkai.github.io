@@ -50,8 +50,13 @@
 		<section class="dropdowns">
 
 		
-			<h5><li>Tel : 404 - 444 -5555</li>
-				<li>Email: blah@blah.com </li>
+			<h5>Address <br/>
+				Monk's Cafe<br/>
+                2890 North Fulton Drive <br/>
+                Atlanta, GA 30305 <br/>
+                Tel : 404 - 444 -5555 <br/>
+                Email: blah@blah.com </li>
+
 				
 			</h5>
 		</ul>
@@ -125,6 +130,54 @@
     
 	</div>
 
+<!-- Twitter feed from Henry-->
+	<footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12" id="contact">
+                  <h2>Hear from Us</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-6">
+                  <a class="twitter-timeline" data-height="300" data-theme="dark" data-link-color="#B2675E" href="https://twitter.com/henryniiabbey">Monks Tweets</a> 
+               </div>
+               <div class="col-sm-6">
+               
+                  <ul class="social pull-right">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-3x fa-facebook-official" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-3x fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-3x fa-yelp" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <p class="center-block"><em>copyright &copy; 2016 Monk's Cafe</em> </p>
+              </div>
+            </div>
+         </div>
+      </footer>
+      
+	  	  
+
 
   <!-- Firebase -->
   <!--<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script> -->
@@ -143,5 +196,25 @@
 	<!-- google maps -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs&callback=initMap"
   async defer></script>
+
+
+<script>window.twttr = (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0],
+	    t = window.twttr || {};
+	  if (d.getElementById(id)) return t;
+	  js = d.createElement(s);
+	  js.id = id;
+	  js.src = "https://platform.twitter.com/widgets.js";
+	  fjs.parentNode.insertBefore(js, fjs);
+
+	  t._e = [];
+	  t.ready = function(f) {
+	    t._e.push(f);
+	  };
+
+	  return t;
+	}(document, "script", "twitter-wjs"));</script>
+
+
 </body>
 </html>
