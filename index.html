@@ -28,8 +28,9 @@
 		  <li><a href="#map">Map</a></li>
 		</ul>
 	</div>
-
+<h2>Monk's Cafe</h2>
 	<div class="container-fluid restaurant-pic">
+
 		<div class="row">
 			<div class="col-md-12"></div>
 		</div>
@@ -108,19 +109,21 @@
 		<!-- reservations -->
 		<h4 style="left: 1000px;">Existing Reservations</h4>
 		
-		<table class="table table-striped col-md-12 container-fluid" style="width:380px">
+		<table class="table table-striped col-md-12 container-fluid"  style="width:400px">
 
 			
 			<thead>
 				<th>Name</th>
 				<th>Day</th>
 			</thead>
-			<tbody class="reservation-list"> </tbody>
+			<tbody class="reservation-list" style="height:10px;overflow-y:auto;"> </tbody>
 		</table>
 		</div>
 
 	</div>
-
+<div id="MonksName" class="container-fluid Monks">
+			Monk's Cafe
+		</div>
 	
 		<div id="locateUs" class="container-fluid locateUsPos">
 			Locate Us
@@ -130,52 +133,42 @@
     
 	</div>
 
-<!-- Twitter feed from Henry-->
+<!-- Twitter feed from Henry's account-->
 	<footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12" id="contact">
-                  <h2>Hear from Us</h2>
-               </div>
-            </div>
+         <div class="container .twitContainer">
+           
             <div class="row">
                <div class="col-sm-6">
                   <a class="twitter-timeline" data-height="300" data-theme="dark" data-link-color="#B2675E" href="https://twitter.com/henryniiabbey">Monks Tweets</a> 
-               </div>
-               <div class="col-sm-6">
-               
-                  <ul class="social pull-right">
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-3x fa-facebook-official" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-3x fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-3x fa-yelp" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-               </div>
-            </div>
+             
             <div class="row">
               <div class="col-sm-12">
                 <p class="center-block"><em>copyright &copy; 2016 Monk's Cafe</em> </p>
               </div>
             </div>
          </div>
+     </div>
+ </div>
       </footer>
       
+      <!-- Twitter Function -->
+<script>window.twttr = (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0],
+	    t = window.twttr || {};
+	  if (d.getElementById(id)) return t;
+	  js = d.createElement(s);
+	  js.id = id;
+	  js.src = "https://platform.twitter.com/widgets.js";
+	  fjs.parentNode.insertBefore(js, fjs);
+
+	  t._e = [];
+	  t.ready = function(f) {
+	    t._e.push(f);
+	  };
+
+	  return t;
+	}(document, "script", "twitter-wjs"));</script>
+
 	  	  
 
 
@@ -197,23 +190,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs&callback=initMap"
   async defer></script>
 
-
-<script>window.twttr = (function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0],
-	    t = window.twttr || {};
-	  if (d.getElementById(id)) return t;
-	  js = d.createElement(s);
-	  js.id = id;
-	  js.src = "https://platform.twitter.com/widgets.js";
-	  fjs.parentNode.insertBefore(js, fjs);
-
-	  t._e = [];
-	  t.ready = function(f) {
-	    t._e.push(f);
-	  };
-
-	  return t;
-	}(document, "script", "twitter-wjs"));</script>
 
 
 </body>

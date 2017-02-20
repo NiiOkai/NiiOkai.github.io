@@ -8,7 +8,9 @@ body {
 	background-size: cover;
 
 	} 
-
+.twitContainer{
+	left: 50%;
+}
 
 
 
@@ -40,7 +42,7 @@ body {
 	top: 50px;
 	background-position: 0 40%;
 	width: 200px;
-	left: 930px;
+	left: 74%;
     margin: 4px 0 0 0;
     background-color: #ffffff;
     border: 1px solid white;
@@ -86,7 +88,7 @@ body {
     outline-color: red;
     left: 290px;
     position: absolute;
-    top: 416px;
+    top: 58%;
 }
 
 .reservation-button{
@@ -107,19 +109,20 @@ body {
 
 table{
     
-	width: 5px;
+	
     background-color: #808080;
     left: 590px;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
-    top: 50px;
-    position: relative;
+    top: 20%;
+    position: absolute;
+
 
 
     }
 
 
-    th{
+th{
     	height: 2px;
     	width: 3px;
 
@@ -127,11 +130,12 @@ table{
 
     }
 
-    td{
+td{
     	height: 2px;
     	font-size: 10px;
     	width: 5px;
     }
+
 
 
 table:hover{
@@ -177,10 +181,20 @@ h6{
 }
 .locateUsPos{
 	position: absolute;
-	top: 380px;
+	top: 54%;
 	left: 460px;
 	font-size: 18px;
 	color: white;
+}
+
+.Monks{
+	position: absolute;
+	top: 15%;
+	left: 34%;
+	font-size: 80px;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 }
 
 footer{
@@ -188,6 +202,7 @@ footer{
 	height:500px !important;
 	padding:10px;
 	margin:30px 0 0 0;
+	left: 90%;
 }
 
 
@@ -203,7 +218,7 @@ footer{
 	border: 2px solid white;
     border-radius: 5px;
     height: 210px;
-    left: 150px;
+    left: 10%;
 
 }
 
@@ -218,4 +233,3 @@ footer{
 	margin: 15px 0 0 0;
 	border: 1px solid red;
 }
-
